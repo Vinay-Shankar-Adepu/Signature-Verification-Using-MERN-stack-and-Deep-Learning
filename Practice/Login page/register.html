@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Contact Us</h1>
+        <hr>
+        <h2>Have any questions? Please feel free to contact us :)</h2>
+        <div>
+            <form id="contactus-fname" name="myForm" method="post" action="main.js">
+                <label for="fname">First Name</label>
+                <input type="text" id="contactus-fname" name="text" placeholder="Type your First Name" required />
+
+                <label for="contactus-mobile">Mobile</label>
+                <input type="text" id="contactus-mobile" name="text" placeholder="Type your First Name" required />
+
+                <label for="contactus-query">Type your Query here.</label><br>
+                <textarea type="text" id="contactus-query" name="text" placeholder="Type your message here..." required></textarea>
+
+                <button class="button" type="button" onclick="contactus()">Submit</button>
+            </form>
+            
+        </div>
+    </div><br><br>
+
+    <div>
+        <footer id="footer">
+            <p>© Copyright - 2021 @ Site</p><br>
+            <div id="bottom">
+                <a href="index.html">Home</a>&nbsp &nbsp
+                <a href="login.html">Login</a>&nbsp &nbsp
+                <a href="register.html">Register</a>&nbsp &nbsp
+                <a href="contactus.html">Contact us</a>&nbsp &nbsp
+                <a href="aboutus.html">About us</a>&nbsp &nbsp
+            </div>
+            <br><br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </footer>
+    </div>
+
+</body>
+</html>

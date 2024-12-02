@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div class="contact_container">
+        <div class="cont">
+            <br>
+            <h1 style="text-align: center;">Contact Us</h1>
+            <hr>
+            <h2>Have any questions?</h2> 
+            <h2>Please feel free to contact us :)</h2>
+            <div>
+                <br>
+                <form id="contactus-fname" name="myForm" method="post" action="main.js">
+                    <label for="fname" style="font-size: large; font-weight: bold;">Name</label>
+                    <input type="text" id="contactus-fname" name="text" placeholder="Type your Name" required />
+
+                    <label for="contactus-mobile" style="font-size: large; font-weight: bold;">Mobile</label>
+                    <input type="text" id="contactus-mobile" name="text" placeholder="Enter Your Contact Number" required />
+
+                    <label for="contactus-query" style="font-size: medium; font-weight: bold;">Type your Query here.</label><br><br>
+                    <textarea type="text" id="contactus-query" name="text" placeholder="Type your message here..." required></textarea>
+                    <br>
+                    <br>
+                    <button class="button" type="button" onclick="contactus()">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+34
+    
+
+</body>
+</html>
